@@ -1,0 +1,38 @@
+class Baeger
+{
+  public Terning Terning1 = new Terning();
+  public Terning Terning2 = new Terning();
+  public Terning Terning3 = new Terning();
+  public Terning Terning4 = new Terning();
+  public Terning Terning5 = new Terning();
+  
+  
+                                  // her bruges metoderne, som var oprettet under terning. Man brug fx KastTerning
+      public void RystBaeger()
+      {
+        Terning1.KastTerning();
+        Terning2.KastTerning();
+        Terning3.KastTerning();
+        Terning4.KastTerning();
+        Terning5.KastTerning();
+      }
+      
+   private int HVorMangeAfEnSlags(int Slags)
+   {
+      int Antal = 0;
+      
+      if(Terning1.Øjne == Slags)
+      {Antal = Antal + 1;}
+      
+      if(Terning2.Øjne == Slags)
+      {Antal = Antal + 1;}
+      
+      if(Terning3.Øjne == Slags)
+      {Antal = Antal + 1;}
+      
+      if(Terning4.Øjne == Slags)
+      {Antal = Antal + 1;}
+      
+      if(Terning5.Øjne == Slags)
+      {Antal = Antal + 1;}
+    }
